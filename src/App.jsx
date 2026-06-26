@@ -30,8 +30,8 @@ console.log(e)
   useEffect(()=>{fetchdata()},[])
   console.log(data)
   return (
-    <div className='bg-black'>
-          <Navbar className="bg-dark">
+    <div className='bg-dark'>
+          <Navbar className="bg-black">
         <Container>
           <Navbar.Brand className='text-light'><span className='text-danger'>R</span>estaurant</Navbar.Brand>
         </Container>
